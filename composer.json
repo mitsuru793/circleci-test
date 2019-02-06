@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "codecept run"
+  },
+    "require-dev": {
+        "codeception/codeception": "^2.5"
+    }
+}
