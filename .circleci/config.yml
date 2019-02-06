@@ -5,4 +5,5 @@ jobs:
       - image: circleci/php:latest
     steps:
       - checkout
+      - run: composer install --no-interaction
       - run: composer run test
